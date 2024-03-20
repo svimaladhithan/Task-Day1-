@@ -1,6 +1,6 @@
 objects and its internal representation in Javascript
  
-  --> Objects are the most important datatype in the modern Javascript. These objects are different from other Javascript's primitive datatypes like number,string,boolean,null and defined.
+  --> Objects are the most important datatype in the modern Javascript. These objects are different from other Javascript's primitive datatypes like number,string,boolean,null and undefined.
   --> These primitive datatypes store single value each depending on their datatypes.
   --> However, Objects are more complex and it can contain any combination of these primitive datatypes and reference data-types.
   --> Objects in JavaScript can defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. The key can be variable and are called properties.
