@@ -1,0 +1,11 @@
+objects and its internal representation in Javascript
+ 
+  --> Objects are the most important datatype in the modern Javascript. These objects are different from other Javascript's primitive datatypes like number,string,boolean,null and defined.
+  --> These primitive datatypes store single value each depending on their datatypes.
+  --> However, Objects are more complex and it can contain any combination of these primitive datatypes and reference data-types.
+  --> Objects in JavaScript can defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. The key can be variable and are called properties.
+  --> For example- If employee is your object then employee ID, location, project can be the properties.
+  --> A property of an object can be explained as a variable that is attached to the object. Expect for the attachment to objects, the properties are basically as same as the ordinary variables.
+  --> The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation.
+  --> Like all JavaScript variables, both the object name and property name are case sensitive. You can define a property by assigning it a value and the unassigned properties are "undefined" and not "null".
+  --> Properties of objects can also be accessed or set using a bracket notation. Any property name that is not a valid JavaScript identifier like a property name that has a space or a hyphen, or that starts with a number can only be accessed using the square bracket notation.

@@ -1,0 +1,23 @@
+Difference between HTTP1.1 and HTTP2
+
+What is HTTP?
+Hypertext Transfer Protocol (HTTP) is an application protocol which is foundation of data communication for the World Wide Web. It is based on the Client/Server model.
+
+Multiplexing:
+ --> HTTP1.1 allows only one request and response to be sent at a time whereas HTTP2 allows multiple requests and response sent over a single connection. It improves the performance of the protocol
+
+Binary protocol:
+ --> HTTP1.1 uses text based protocol but HTTP2 uses a binary protocol which reduces the size of the data transmitted between the client and server, improving the efficiency of the protocol.
+
+Header compression:
+ --> HTTP1.1 sends headers with each request and response, which can result in a lot of overhead and slow down performance and HTTP2 uses header compression to reduce the size of the header data.
+
+Server push:
+ --> HTTP1.1 does not support server push so the server cannot initiate the transfer of data to the client without first receiving a request whereas HTTP2 support server push so the server can send multiple response to the single request. It will improve the efficieny and speed of the web application.
+
+Prioritizing requests:
+ --> HTTP1.1 does not have the mechanism to priortize requests so the requests can be processed in any order However HTTP2 allows the client to specify the priority of the requests so that the important request can be treated quickly and all the requests will have equal importance.
+
+Transport Layer Security encryption:
+ --> HTTPS is not a mandotary one in HTTP1.1 and it is mandotary in HTTP2 which provides security to the client.
+
